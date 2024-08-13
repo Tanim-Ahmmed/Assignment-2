@@ -328,3 +328,52 @@ select option {
     color: white;
 }
 
+
+
+
+
+/*  Meet Our Team section */
+
+.meet-content{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 88px;
+    p{
+        margin-top: 14px;
+    }
+}
+
+.team-images{
+    margin: 0 auto;
+    margin-top: 60px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+}
+
+.team-image{
+    width: 325px;
+    height: 270px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 1rem;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.img-name{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    h4{
+        font-size:20px;
+        font-weight: 900;
+    }
+}
