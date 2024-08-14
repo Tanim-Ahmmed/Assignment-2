@@ -353,6 +353,7 @@ input ,select{
     border-radius: 5px;
     padding: 10px;
     flex: 1;
+    min-width: 0;
 }
 
 input::placeholder,select{
