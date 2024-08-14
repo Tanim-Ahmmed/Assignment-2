@@ -330,6 +330,44 @@ select option {
 
 
 
+/* Fitness tips section start */
+
+.fit-container{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 100px;
+    text-align: center;
+    p{
+        margin-top: 14px;
+    }
+}
+
+
+.fit-images{
+    margin-top: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fit-image{
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 1rem;
+    img{ 
+        width: 100%;
+        border-radius: 1rem;
+    }
+    h4{
+        margin-top: 30px;
+    }
+    p{
+        margin-top: 6px;
+        font-size: .8rem;
+    }
+}
+
 
 
 /*  Meet Our Team section */
@@ -376,4 +414,64 @@ select option {
         font-size:20px;
         font-weight: 900;
     }
+}
+
+
+
+/* footer part starts here */
+
+.footer-container{
+    margin: 0 auto;
+    margin-top: 90px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.content-left{
+    margin-top: 75px;
+
+    h2{
+        color: rgb(230, 83, 60);
+        font-style: italic;  
+        font-size:4.3rem ;
+    }
+
+    p{
+        margin-top: 20px;
+    }
+}
+
+.right-options{
+    margin-top: 65px;
+    p{
+        font-size: 23px;
+        line-height: 3;
+    }
+}
+
+
+.copyright-bar{
+    margin: 0 auto;
+    padding-top: 90px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+
+
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    border:2px solid rgba(255, 255, 255, 0.1) ;
+
+}
+
+.copyright{
+    text-align: center;
+    padding: 30px;
+    font-size: 20px;
 }
