@@ -1,0 +1,235 @@
+@media screen and (max-width: 576px){
+
+
+    .background{
+        margin: 0 auto;
+    }
+.nav-option{
+    display: none;
+}
+
+.nav-bar{
+  h3{
+    font-size: 36px;
+  }
+
+}
+
+.ham-burger{
+    display: block;
+    font-size: 30px;
+}
+
+.banner-content h1{
+    font-size: 36px;
+
+}
+#shape{
+    font-size: 48px;
+}
+p{
+    font-size: 14px;
+}
+
+button{
+    width: 170px;
+    height: 54px;
+}
+
+.banner-container{
+    flex-direction: column;
+}
+
+.banner-image{
+    margin-top: 32px;
+    width: 96%;
+}
+
+.card1{
+    top: 53%;
+}
+
+.card2{
+    left: 3%;
+    top: 75%;
+}
+
+.banner-content{
+    width: 100%;
+}
+
+.btn-option{
+    display: flex;
+ }
+ button{
+    margin-top: 28px;
+    width: 45%;
+    height: 54px;
+    border-radius: 42px;
+   color: white;
+ }
+
+
+
+ /* change habits */
+ .habits-container{
+    margin-top: 0;
+    h2{
+        font-size: 32px;
+
+    }
+ }
+
+ .habits-images{
+    flex-direction: column;
+ }
+
+ .habits-image{
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 40px;
+    img{
+        width: 90%;
+    }
+
+ }
+
+  /* run extra mile */
+
+  .run-container{
+    flex-direction: column;
+
+  }
+   .run-content{
+    margin-left: 0px;
+    h2{
+        font-size: 36px;
+    }
+    button{
+           width: 100%;
+    }
+   }
+
+.run-image{
+    margin: 0 auto;
+    margin-top: 30px;
+    height: 20%;
+    img{
+
+        width: 80%;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
+}
+
+.bmi{
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.bmi-content{
+    h2{
+        font-size: 36px;
+        margin: 0 auto;
+        margin-left: 0;
+    }
+}
+
+
+.calculator-container{
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+
+.chart-table{
+    margin-left: 10px;
+    h3{
+        font-size: 16px;
+    }
+}
+
+
+.calculator{
+    margin: 0 auto;
+    width: 90%;
+    h3{
+        font-size: 16px;
+    }
+}
+
+
+/* fitness tips */
+
+.fit-container{
+    margin-top: 10px;
+    h2{
+        font-size: 36px;
+    }
+}
+
+.fit-images{
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+
+.fit-image{
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 10px;
+}
+
+/* meet our team */
+
+.meet-content{
+    margin-top: 50px;
+    h2{
+        font-size: 36px;
+    }
+}
+
+.team-images{
+    margin-top: 30px ;
+    grid-template-columns: 1fr;
+}
+
+/* footer */
+
+
+.footer-container{
+    flex-direction: column;
+    
+}
+
+.content-left{
+    margin-left: 20px;
+}
+
+.right-options{
+    margin-top: 20px;
+    margin-left: 20px;
+    p{
+        line-height: 2;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
